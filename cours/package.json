@@ -1,0 +1,22 @@
+{
+  "name": "cours-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "Salut" : "./script/sayhello",
+    "i": "./script/test-sh",
+    "m": "./script/test-sh1",
+    "LCT": "./script/test-sh2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coco": "cowsay hello"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
+}
